@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>editing tables</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
+</head>
+<body>
+
+
+  <table class="table table-striped table-hover">
+    <thead> <!-- table header row -->
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Email Address</th>
+      <th>Delete</th>
+    </thead> <!-- end table header row -->
+    <tr>
+      <td>Paul</td>
+      <td>Santos</td>
+      <td>you@example.com</td>
+      <td><button class="btn btn-default danger delete-row">X</button></td>
+    </tr>
+    <tr>
+      <td>This</td>
+      <td>Guy</td>
+      <td>you@example.com</td>
+      <td><button class="btn btn-default danger delete-row">X</button></td>
+    </tr>
+    <tr>
+      <td>Who</td>
+      <td>Bob</td>
+      <td>you@example.com</td>
+      <td><button class="btn btn-default danger delete-row">X</button></td>
+    </tr>
+    <tr>
+      <td>Yes</td>
+      <td>No</td>
+      <td>you@example.com</td>
+      <td><button class="btn btn-default danger delete-row">X</button></td>
+    </tr>
+    <tr>
+      <td>
+        <form class="form-inline">
+          <div class="form-group">
+            <label for="First-Name">First Name:</label>
+            <input type="text" class="form-control" id="first-name" placeholder="First Name">
+          </div>
+        </form>
+      </td>
+      <td>
+        <form class="form-inline">
+          <div class="form-group">
+            <label for="Last-Name">Last Name:</label>
+            <input type="text" class="form-control" id="last-name" placeholder="Last Name">
+          </div>
+        </form>
+      </td>
+      <td>
+        <form class="form-inline">
+          <div class="form-group">
+            <label for="emailField">Email:</label>
+            <input type="email" class="form-control" id="email-field" placeholder="you@example.com">
+          </div>
+        </form>
+        </td>
+      <td><button class="btn btn-default danger delete-row">+</button></td>
+    </tr>
+
+    <script type="text/javascript" src="js/table.js"></script>
+
+  </table>
+</body>
+</html>
